@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    text-align: center;
+    background-image: url(space.png);
+    background-size: 2000px;
+}
+p {
+    font-size: 40px;
+    color: #02FF00;
+}
+li {
+    text-decoration: none;
+    display: inline-block;
+}
+li a {
+    list-style-type: none;
+    padding: 10px;
+    display: block;
+    color: #02FF00;
+    border: 2px solid #02FF00;
+    margin: 15px 0;
+    transition: 0.5s;
+    width: 122px;
+}
+li a:hover{
+    background-color: black;
+    color: black;
+    font-weight: bold;
+}
